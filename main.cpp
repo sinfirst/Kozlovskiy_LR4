@@ -7,7 +7,10 @@ float readValues(){
 }
 
 int firstTask(float x, float y, float z){
-
+    cout<<x<<endl;
+    cout<<y<<endl;
+    cout<<z<<endl;
+    return (int) x + y + z;
 }
 
 float secondTask(float x, float y, float z){
