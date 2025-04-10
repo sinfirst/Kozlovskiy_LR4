@@ -11,7 +11,7 @@ int firstTask(float x, float y, float z){
 }
 
 float secondTask(float x, float y, float z){
-    
+    return sqrt(fabs(x)*fabs(y)*fabs(z)) - floor(sqrt(fabs(x)*fabs(y)*fabs(z)));
 }
 
 int main(){
