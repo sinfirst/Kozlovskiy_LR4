@@ -3,7 +3,10 @@
 using namespace std;
 
 float readValues(){
-
+    float value;
+    cout<<"Введите число\n";
+    cin>>value;
+    return value;
 }
 
 int firstTask(float x, float y, float z){
